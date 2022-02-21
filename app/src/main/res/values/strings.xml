@@ -6,7 +6,6 @@
     <string name="hush_kelibsiz">Hush kelibsiz!</string>
     <string name="davom_etish_uchun_kiring">Davom etish uchun kiring</string>
     <string name="emailingizni_kiriting">Emailingizni kiriting</string>
-    <string name="parolni_kiriting">Parolni kiriting</string>
     <string name="kirish">Kirish</string>
     <string name="yangi_akkaunt_ochish">Yangi akkaunt ochish</string>
     <string name="registratsiya">Registratsiya</string>
@@ -16,7 +15,6 @@
     <string name="parolni_qayta_kiriting">Parolni qayta kiriting</string>
     <string name="ism">Ism</string>
     <string name="ro_yxatdan_o_tish">Ro\'yxatdan o\'tish</string>
-    <string name="kirish">Kirish</string>
     <string name="online">Online</string>
     <string name="xabarni_kiriting">Xabarni kiriting</string>
 </resources>
