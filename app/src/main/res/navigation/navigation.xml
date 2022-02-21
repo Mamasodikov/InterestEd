@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/signIn">
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.mamasodikov.interested.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_signIn"
+            app:destination="@id/signIn" />
+        <action
+            android:id="@+id/action_signUp_to_homeActivity"
+            app:destination="@id/homeActivity"
+            app:popUpTo="@id/signUp"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/signIn"
+        android:name="com.mamasodikov.interested.SignIn"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signIn_to_signUp"
+            app:destination="@id/signUp"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popUpTo="@id/signIn"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_signIn_to_homeActivity"
+            app:destination="@id/homeActivity"
+            app:popUpTo="@id/signIn"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeActivity"
+        android:name="com.mamasodikov.interested.HomeActivity"
+        android:label="fragment_home_activity"
+        tools:layout="@layout/fragment_home_activity" >
+        <action
+            android:id="@+id/action_homeActivity_to_signIn"
+            app:destination="@id/signIn" />
+        <action
+            android:id="@+id/action_homeActivity_to_userActivity"
+            app:destination="@id/userActivity" />
+        <action
+            android:id="@+id/action_homeActivity_to_chatActivity"
+            app:destination="@id/chatActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/userActivity"
+        android:name="com.mamasodikov.interested.UserActivity"
+        android:label="fragment_user_activity"
+        tools:layout="@layout/fragment_user_activity" >
+        <action
+            android:id="@+id/action_userActivity_to_chatActivity"
+            app:destination="@id/chatActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatActivity"
+        android:name="com.mamasodikov.interested.ChatActivity"
+        android:label="fragment_chat_activity"
+        tools:layout="@layout/fragment_chat_activity" />
+</navigation>

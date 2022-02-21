@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">InterestEd</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kontaktni_tanlang">Kontaktni tanlang</string>
+    <string name="hush_kelibsiz">Hush kelibsiz!</string>
+    <string name="davom_etish_uchun_kiring">Davom etish uchun kiring</string>
+    <string name="emailingizni_kiriting">Emailingizni kiriting</string>
+    <string name="parolni_kiriting">Parolni kiriting</string>
+    <string name="kirish">Kirish</string>
+    <string name="yangi_akkaunt_ochish">Yangi akkaunt ochish</string>
+    <string name="registratsiya">Registratsiya</string>
+    <string name="rasm_qo_shish">Rasm qo\'shish</string>
+    <string name="email">Email</string>
+    <string name="parolni_kiriting">Parolni kiriting</string>
+    <string name="parolni_qayta_kiriting">Parolni qayta kiriting</string>
+    <string name="ism">Ism</string>
+    <string name="ro_yxatdan_o_tish">Ro\'yxatdan o\'tish</string>
+    <string name="kirish">Kirish</string>
+    <string name="online">Online</string>
+    <string name="xabarni_kiriting">Xabarni kiriting</string>
+</resources>
